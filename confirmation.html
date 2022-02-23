@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Form</title>
+
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        h1{
+            background-color: lightslategrey;
+        }
+        label{
+            font-weight: bold;
+        }
+        div{
+                border: solid darkgrey;
+                border-radius: 20px;
+                padding: 50px;
+            }
+    </style>
+</head>
+<body >
+    <h1>Buy Tickets Form</h1>
+<div>
+
+    <form>
+        <label for="email">Email id : </label>
+            <input type="email" id="email" name="id" placeholder="abc@xyz.com">
+            <br><br>
+
+            <label for="phone">Phonenumber :</label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+
+            <label for="payment">Payment:</label>
+            <select for="payment">
+                <option value="payment">--Payment Option--</option>
+                <option value="UPI">UPI</option>
+                <option value="Net Banking">Net Banking</option>
+                <option value="Credit/Debit Card">Credit/Debit Card</option>
+                
+            </select>
+            <br><br>
+
+            <a href="TicketSuccess.html" >Confirm</a>
+            <br><br>
+            
+            <input type="reset">
+
+    </form>
+</div>
+
+    
+</body>
+</html>

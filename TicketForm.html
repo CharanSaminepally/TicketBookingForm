@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ticket Booking Form</title>
+        <link rel="newpage" href="new.html">
+
+        <style>
+            body{
+                background-color: lightgrey;
+            }
+            h1{
+                background-color: lightslategrey;
+            }
+            label{
+                font-weight: bold;
+            }
+            div{
+                border: solid darkgrey;
+                border-radius: 20px;
+                padding: 50px;
+            }
+            
+        </style>
+    </head>
+    
+    <body >
+    <h1>Buy Tickets Form </h1>
+<div>
+        <form >
+            
+            <label style="font-weight: bold" for="From">From : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" id="From" name="From" placeholder=" Pickup Point "><br><br>
+
+            <label for="Destination">Destination : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input type="text" id="Destination" name="Destination" placeholder=" Drop point"><br><br>
+
+            <label for="Departure Date">Departure Date : </label>
+            <input type="date" id="Departure Date" name="Departure Date">
+            <br><br>
+            
+            <label for="Trip">Trip : &nbsp&nbsp&nbsp&nbsp</label> 
+            <input type="radio" value="One Way" id="oneway" name="title">
+            <label>One Way</label>
+            <input type="radio" value="Round Trip" id="Round Trip" name="title">
+            <label>Round Trip</label>
+            
+            <br><br> 
+
+            <!-- <label for="Destination">Select Destination : </label>
+            <select for="Destination">
+                <option value="Select Destination">---Select Destination---</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkatta">Kolkatta</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Pune">Pune</option>
+            </select>
+            <br><br> -->
+
+            
+
+            <label for="Terms&Conditions">Terms & Conditions : </label><br>
+            <input type="checkbox" id="checkbox" name="checkbox">I accept the terms & conditions
+            <br><br>
+
+            <!-- <label for="file">File:</label>
+            <input type="file" id="file" name="file" accept=".txt">
+            <br><br> -->
+
+            <a href="new.html">Submit
+            </a>   
+            <br><br><br>
+            
+            <input type="reset">
+        </form>
+    </div>
+
+    </body>
+</html>

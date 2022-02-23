@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Form</title>
+
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+        h1{
+            background-color: lightslategrey;
+        }
+        label{
+            font-weight: bold;
+        }
+        div{
+                border: solid darkgrey;
+                border-radius: 20px;
+                padding: 50px;
+            }
+    </style>
+</head>
+<body>
+    <h1>Buy Tickets Form</h1>
+    <h2>Available Tickets</h2>
+    <div>
+    <form>
+
+    <label for="Adult Tickets">Adult Tickets : </label>
+        <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+        <label for="quantity">Quantity : </label>
+            <input type="number" id="quantity" name="quantity"
+            min="0" max="10" value=1>
+            <br><br>
+        <br><br>
+
+    <label for="Senior Tickets">Senior Tickets : </label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+    <label for="quantity">Quantity : </label>
+        <input type="number" id="quantity" name="quantity"
+        min="0" max="10" value=1>
+        <br><br>
+    <br><br>  
+    
+    <label for="Children Tickets">Children Tickets : </label>
+    <input type="checkbox" id="checkbox" name="checkbox"><br><br>
+    <label for="quantity">Quantity : </label>
+        <input type="number" id="quantity" name="quantity"
+        min="0" max="10" value=1>
+        <br><br>
+    <label for="Total">Total : 25$</label>
+
+    <br><br>  
+
+    <br><br>
+
+    <a href="confirmation.html">Next</a>
+    <br><br>
+
+    <input type="reset">
+
+
+
+    
+
+            <!-- <label for="slider">Slider: </label>
+            1<input type="range" step="10" name ="slider" value=50>100
+            <br><br> -->
+
+            <!-- <label for="password">Password : </label>
+            <input type="password" id="password" name="password" maxlength="10">
+            <br><br> -->
+
+    </form>
+</div>
+
+</body>
+</html>
